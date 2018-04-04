@@ -1,0 +1,23 @@
+{
+	"attributes": [{
+		"attribute": "flexDirection",
+		"values": ["row", "row-reverse", "column", "column-reverse"],
+		"key": "20001",
+		"level": 1, //1:容器修饰属性；0:子视图修饰属性
+		"dependecy": {}
+	}, {
+		"attribute": "alignContent",
+		"values": ["flex-start", "flex-end", "center", "stretch", "space-between", "space-around"],
+		"key": "20002",
+		"level": 1,
+		"dependecy": {
+			"flexWrap": "wrap"
+		}
+	}, {
+		"attribute": "alignSelf",
+		"values": ["auto", "flex-start", "flex-end", "center", "stretch", "baseline"],
+		"key": "20003",
+		"level": 0,
+		"dependecy": {}
+	}]
+}
